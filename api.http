@@ -1,0 +1,46 @@
+@host = localhost
+@port = 3000
+@user = upload
+// user login
+POST http://{{host}}:{{port}}/{{user}}/translate HTTP/1.1
+content-type: application/json
+
+{
+    "user": "ahhaa"
+}
+
+# ### 获取文章的分类
+# GET http://{{host}}:{{port}}/{{user}}/modules HTTP/1.1
+# content-type: application/json
+
+# ### 根据文章分类查询文章
+# GET http://{{host}}:{{port}}/{{user}}/articles/1 HTTP/1.1
+# content-type: application/json
+
+# ### 查询文章详情信息
+# GET http://{{host}}:{{port}}/{{user}}/articles/info/3 HTTP/1.1
+# content-type: application/json
+
+# ### 添加文章
+# POST http://{{host}}:{{port}}/{{user}}/articles/add HTTP/1.1
+# content-type: application/json
+
+# {
+#     "title": "111",
+#     "moduleKey": "111",
+#     "detail": "111",
+#     "info": "1111",
+#     "id": "232"
+# }
+
+# ### 移动文章
+# PUT http://{{host}}:{{port}}/{{user}}/articles/move HTTP/1.1
+# content-type: application/json
+
+# {
+#     "id": 1582308728066,
+#     "moduleKey": "3"
+# }
+
+# ### 删除文章
+# DELETE http://{{host}}:{{port}}/{{user}}/articles/1582308728066 HTTP/1.1

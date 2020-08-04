@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^3.1.0",
+    "faker": "^4.1.0",
+    "google-translate-api": "^2.3.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^8.0.7",
+    "koa-send": "^5.0.1",
+    "koa-session": "^5.13.1",
+    "koa2-cors": "^2.0.6",
+    "lodash": "^4.17.19",
+    "mongodb": "^3.5.3",
+    "node-uuid": "^1.4.8",
+    "node-xlsx": "^0.15.0",
+    "xlsx": "^0.16.4"
+  }
+}
