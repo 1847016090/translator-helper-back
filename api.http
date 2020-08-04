@@ -6,7 +6,8 @@ POST http://{{host}}:{{port}}/{{user}}/translate HTTP/1.1
 content-type: application/json
 
 {
-    "user": "ahhaa"
+    "user":"Stephen Ye",
+    "password": "Yekang-2019"
 }
 
 # ### 获取文章的分类
